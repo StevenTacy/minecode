@@ -6,10 +6,6 @@ mod neetcode;
 
 use std::{cell::RefCell, rc::Rc};
 
-pub use l_2000::min_sum_of_lengths;
-pub use l_4000::uniform_array;
-
-// Definition for a binary tree node.
 #[derive(Debug, PartialEq, Eq)]
 pub struct TreeNode {
     pub val: i32,
